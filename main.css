@@ -1,0 +1,209 @@
+@charset="utf-8";
+ * {
+ 	margin: 0;
+ }
+header {
+	height: 60px;
+	background-color: rgb(50,50,50);
+}
+header h1 {
+	display: none;
+}
+header img {
+	margin: 11px 0 0 0;
+	position: absolute;
+	left: 20px;
+	line-height: 60px;
+}
+
+header ol {
+	float: right;
+}
+body {
+	background-color: rgb(221,221,221);
+}
+
+header li {
+	/*display: inline-block;*/
+	float: left;
+	width: 60px;
+	list-style: disc;
+	margin: 0 10px;
+
+}
+header a {
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 12px;
+}
+
+header a:hover , .select {
+	color: gray;
+}
+
+article , .imgGroup , .formgroup {
+	width: 1240px;
+	background-color: white;
+	border: 1px solid gray;
+	margin: 20px auto;
+}
+
+article h1 , .imgGroup h1 {
+	position: relative;
+	font-size: 22px;
+	left: 20px; 
+	margin: 40px 0 0  0;
+}
+
+article h2 {
+	position: relative;
+	left: 14px;
+	font-size: 16px;
+	color: rgb(107,107,116);
+	margin: 20px 0 0 0;
+}
+
+article img {
+	margin: 20px auto;
+}
+article ul {
+	list-style: none;
+	font-size: 15px;
+}
+article p {
+	text-indent: 2em;
+	margin: 0 20px 0 20px;
+}
+
+.author {
+	position: relative;
+	left: 14px;
+	font-size: 14px;
+	color: rgb(107,107,116);
+	margin: 15px auto;
+}
+
+.edge {
+	margin: 0 0 40px 0;
+}
+
+.imgGroup ul {
+	display: inline-block;
+	padding: 0;
+}
+
+.imgGroup li {
+	border: 1px solid rgb(205,205,205);
+	margin: 15px 60px;
+	padding: 10px;
+	text-align: center;
+}
+
+.imgGroup p {
+	text-indent: 0;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+article ol {
+	margin-left: 60px;
+	padding: 0;
+}
+article ol li {
+	margin-top: 5px;
+}
+
+article table {
+	border-spacing: 0;
+	border: 0.5px solid rgb(205,205,205);
+	margin: 0 20px 20px 20px;
+	width: 1200px;
+	border-collapse: collapse;
+}
+thead {
+	background-color: gray;
+	text-align: left;
+}
+th , tr , td {
+	border: 0.5px solid rgb(205,205,205);
+}
+
+.tablef {
+	background-color: rgb(221,221,221);
+	border: none;
+}
+.tablef td {
+	border: none;
+}
+
+.indent {
+	margin-top: 20px;
+	text-indent: 20px;
+}
+
+.formgroup h1 {
+	margin:40px 0 0 20px;
+	border-left: 3px solid rgb(205,205,205);
+	padding-left: 8px;
+	font-size: 20px;
+}
+
+.label {
+	position: absolute;
+	right: 845px;
+	font-size: 16px;
+}
+.leftpositon {
+	position: relative;
+	left: 440px;
+}
+
+.userinput {
+	margin-top: 20px;
+}
+
+.psdbottom {
+	margin-bottom: 10px;
+}
+
+.hint {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: rgb(205,205,205);
+	font-size: 14px;
+}
+
+.submitbtn {
+	width: 1200px;
+	height: 38px;
+	color: white;
+	background-color: rgb(49,83,189);
+	margin-left: 20px;
+	border-radius: 10px;
+	border-width: 0.5px;
+	margin-bottom: 20px;
+}
+
+.des {
+	margin: 13px auto;
+}
+.des textarea {
+	width: 764px;
+	height: 100px;
+}
+
+footer {
+	height: 70px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+}
+
+.formgroup {
+	width: 1220px;
+	margin-left: 20px;
+}
+
+
